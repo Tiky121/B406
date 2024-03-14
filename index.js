@@ -31,11 +31,11 @@ async function main() {
         if (camera.position.z < -0.9) {
             camera.position.z = -0.9;
         }
-        if (camera.position.x > 0.9) {
-            camera.position.x = 0.9;
+        if (camera.position.x > 0.5) {
+            camera.position.x = 0.5;
         }
-        if (camera.position.x < -0.8) {
-            camera.position.x = -0.8;
+        if (camera.position.x < -0.4) {
+            camera.position.x = -0.4;
         }
         // Prípadné ďalšie kontroly pre os X alebo minimálne hodnoty
 
